@@ -1,0 +1,6 @@
+@EcoVisionAPI_HostAddress = http://localhost:5272
+
+GET {{EcoVisionAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,14 @@
+C:\Users\devin\source\repos\EcoVisionAI\EcoVisionAI\bin\Debug\net8.0\EcoVisionAI.exe
+C:\Users\devin\source\repos\EcoVisionAI\EcoVisionAI\bin\Debug\net8.0\EcoVisionAI.deps.json
+C:\Users\devin\source\repos\EcoVisionAI\EcoVisionAI\bin\Debug\net8.0\EcoVisionAI.runtimeconfig.json
+C:\Users\devin\source\repos\EcoVisionAI\EcoVisionAI\bin\Debug\net8.0\EcoVisionAI.dll
+C:\Users\devin\source\repos\EcoVisionAI\EcoVisionAI\bin\Debug\net8.0\EcoVisionAI.pdb
+C:\Users\devin\source\repos\EcoVisionAI\EcoVisionAI\obj\Debug\net8.0\EcoVisionAI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\devin\source\repos\EcoVisionAI\EcoVisionAI\obj\Debug\net8.0\EcoVisionAI.AssemblyInfoInputs.cache
+C:\Users\devin\source\repos\EcoVisionAI\EcoVisionAI\obj\Debug\net8.0\EcoVisionAI.AssemblyInfo.cs
+C:\Users\devin\source\repos\EcoVisionAI\EcoVisionAI\obj\Debug\net8.0\EcoVisionAI.csproj.CoreCompileInputs.cache
+C:\Users\devin\source\repos\EcoVisionAI\EcoVisionAI\obj\Debug\net8.0\EcoVisionAI.dll
+C:\Users\devin\source\repos\EcoVisionAI\EcoVisionAI\obj\Debug\net8.0\refint\EcoVisionAI.dll
+C:\Users\devin\source\repos\EcoVisionAI\EcoVisionAI\obj\Debug\net8.0\EcoVisionAI.pdb
+C:\Users\devin\source\repos\EcoVisionAI\EcoVisionAI\obj\Debug\net8.0\EcoVisionAI.genruntimeconfig.cache
+C:\Users\devin\source\repos\EcoVisionAI\EcoVisionAI\obj\Debug\net8.0\ref\EcoVisionAI.dll
