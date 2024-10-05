@@ -1,0 +1,91 @@
+2024-10-05 19:11:27,523 [INFO] Operating System detected: Windows
+2024-10-05 19:11:27,525 [INFO] Starting service: ProjectSTARK.API
+2024-10-05 19:11:27,531 [INFO] Service ProjectSTARK.API started with PID 27252
+2024-10-05 19:11:27,582 [ERROR] [ProjectSTARK.API stderr] Unhandled exception. System.IO.IOException: The handle is invalid.
+2024-10-05 19:11:27,582 [ERROR] [ProjectSTARK.API stderr]    at System.ConsolePal.SetConsoleOutputEncoding(Encoding enc)
+2024-10-05 19:11:27,582 [ERROR] [ProjectSTARK.API stderr]    at System.Console.set_OutputEncoding(Encoding value)
+2024-10-05 19:11:27,582 [ERROR] [ProjectSTARK.API stderr]    at Microsoft.DotNet.Cli.Program.Main(String[] args)
+2024-10-05 19:11:29,542 [INFO] Starting service: JarvisHealthAPI
+2024-10-05 19:11:29,551 [INFO] Service JarvisHealthAPI started with PID 16772
+2024-10-05 19:11:29,597 [ERROR] [JarvisHealthAPI stderr] Unhandled exception. System.IO.IOException: The handle is invalid.
+2024-10-05 19:11:29,597 [ERROR] [JarvisHealthAPI stderr]    at System.ConsolePal.SetConsoleOutputEncoding(Encoding enc)
+2024-10-05 19:11:29,597 [ERROR] [JarvisHealthAPI stderr]    at System.Console.set_OutputEncoding(Encoding value)
+2024-10-05 19:11:29,597 [ERROR] [JarvisHealthAPI stderr]    at Microsoft.DotNet.Cli.Program.Main(String[] args)
+2024-10-05 19:11:31,569 [INFO] Starting service: EcoVisionAPI
+2024-10-05 19:11:31,577 [INFO] Service EcoVisionAPI started with PID 20888
+2024-10-05 19:11:31,614 [ERROR] [EcoVisionAPI stderr] python: can't open file 'C:\\Users\\devin\\ProjectSTARK\\StarkMainframe\\PythonApplication1\\Services\\EcoVision\\EcoVisionAPI\\app.py': [Errno 2] No such file or directory
+2024-10-05 19:11:33,583 [INFO] Starting service: FridayLearningBackend
+2024-10-05 19:11:33,593 [INFO] Service FridayLearningBackend started with PID 9428
+2024-10-05 19:11:33,660 [ERROR] [FridayLearningBackend stderr] node:internal/modules/cjs/loader:1146
+2024-10-05 19:11:33,660 [ERROR] [FridayLearningBackend stderr]   throw err;
+2024-10-05 19:11:33,660 [ERROR] [FridayLearningBackend stderr]   ^
+2024-10-05 19:11:33,660 [ERROR] [FridayLearningBackend stderr] 
+2024-10-05 19:11:33,660 [ERROR] [FridayLearningBackend stderr] Error: Cannot find module 'C:\Users\devin\ProjectSTARK\StarkMainframe\PythonApplication1\Services\Friday\FridayLearningBackend\server.js'
+2024-10-05 19:11:33,662 [ERROR] [FridayLearningBackend stderr]     at Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+2024-10-05 19:11:33,662 [ERROR] [FridayLearningBackend stderr]     at Module._load (node:internal/modules/cjs/loader:984:27)
+2024-10-05 19:11:33,662 [ERROR] [FridayLearningBackend stderr]     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+2024-10-05 19:11:33,662 [ERROR] [FridayLearningBackend stderr]     at node:internal/main/run_main_module:28:49 {
+2024-10-05 19:11:33,662 [ERROR] [FridayLearningBackend stderr]   code: 'MODULE_NOT_FOUND',
+2024-10-05 19:11:33,662 [ERROR] [FridayLearningBackend stderr]   requireStack: []
+2024-10-05 19:11:33,663 [ERROR] [FridayLearningBackend stderr] }
+2024-10-05 19:11:33,663 [ERROR] [FridayLearningBackend stderr] 
+2024-10-05 19:11:33,663 [ERROR] [FridayLearningBackend stderr] Node.js v20.12.2
+2024-10-05 19:11:39,695 [WARNING] Service ProjectSTARK.API health check failed: HTTPConnectionPool(host='localhost', port=5000): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DF39DB73D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-10-05 19:11:39,696 [WARNING] Service ProjectSTARK.API is not healthy. Attempting to restart...
+2024-10-05 19:11:39,696 [INFO] Stopping service ProjectSTARK.API
+2024-10-05 19:11:39,696 [INFO] Service ProjectSTARK.API stopped
+2024-10-05 19:11:39,697 [INFO] Starting service: ProjectSTARK.API
+2024-10-05 19:11:39,703 [INFO] Service ProjectSTARK.API started with PID 11324
+2024-10-05 19:11:39,749 [ERROR] [ProjectSTARK.API stderr] Unhandled exception. System.IO.IOException: The handle is invalid.
+2024-10-05 19:11:39,751 [ERROR] [ProjectSTARK.API stderr]    at System.ConsolePal.SetConsoleOutputEncoding(Encoding enc)
+2024-10-05 19:11:39,751 [ERROR] [ProjectSTARK.API stderr]    at System.Console.set_OutputEncoding(Encoding value)
+2024-10-05 19:11:39,752 [ERROR] [ProjectSTARK.API stderr]    at Microsoft.DotNet.Cli.Program.Main(String[] args)
+2024-10-05 19:11:43,780 [WARNING] Service JarvisHealthAPI health check failed: HTTPConnectionPool(host='localhost', port=5001): Max retries exceeded with url: /health (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DF39DB4F40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2024-10-05 19:11:43,781 [WARNING] Service JarvisHealthAPI is not healthy. Attempting to restart...
+2024-10-05 19:11:43,781 [INFO] Stopping service JarvisHealthAPI
+2024-10-05 19:11:43,783 [INFO] Service JarvisHealthAPI stopped
+2024-10-05 19:11:43,783 [INFO] Starting service: JarvisHealthAPI
+2024-10-05 19:11:43,792 [INFO] Service JarvisHealthAPI started with PID 13644
+2024-10-05 19:11:43,836 [ERROR] [JarvisHealthAPI stderr] Unhandled exception. System.IO.IOException: The handle is invalid.
+2024-10-05 19:11:43,837 [ERROR] [JarvisHealthAPI stderr]    at System.ConsolePal.SetConsoleOutputEncoding(Encoding enc)
+2024-10-05 19:11:43,837 [ERROR] [JarvisHealthAPI stderr]    at System.Console.set_OutputEncoding(Encoding value)
+2024-10-05 19:11:43,837 [ERROR] [JarvisHealthAPI stderr]    at Microsoft.DotNet.Cli.Program.Main(String[] args)
+2024-10-05 19:12:44,831 [INFO] Operating System detected: Windows
+2024-10-05 19:12:44,832 [INFO] Starting service: ProjectSTARK.API
+2024-10-05 19:12:44,840 [INFO] Service ProjectSTARK.API started with PID 16576
+2024-10-05 19:12:44,912 [ERROR] [ProjectSTARK.API stderr] Unhandled exception. System.IO.IOException: The handle is invalid.
+2024-10-05 19:12:44,912 [ERROR] [ProjectSTARK.API stderr]    at System.ConsolePal.SetConsoleOutputEncoding(Encoding enc)
+2024-10-05 19:12:44,913 [ERROR] [ProjectSTARK.API stderr]    at System.Console.set_OutputEncoding(Encoding value)
+2024-10-05 19:12:44,913 [ERROR] [ProjectSTARK.API stderr]    at Microsoft.DotNet.Cli.Program.Main(String[] args)
+2024-10-05 19:12:46,849 [INFO] Starting service: JarvisHealthAPI
+2024-10-05 19:12:46,864 [INFO] Service JarvisHealthAPI started with PID 30864
+2024-10-05 19:12:46,907 [ERROR] [JarvisHealthAPI stderr] Unhandled exception. System.IO.IOException: The handle is invalid.
+2024-10-05 19:12:46,907 [ERROR] [JarvisHealthAPI stderr]    at System.ConsolePal.SetConsoleOutputEncoding(Encoding enc)
+2024-10-05 19:12:46,907 [ERROR] [JarvisHealthAPI stderr]    at System.Console.set_OutputEncoding(Encoding value)
+2024-10-05 19:12:46,907 [ERROR] [JarvisHealthAPI stderr]    at Microsoft.DotNet.Cli.Program.Main(String[] args)
+2024-10-05 19:12:48,875 [INFO] Starting service: EcoVisionAPI
+2024-10-05 19:12:48,886 [INFO] Service EcoVisionAPI started with PID 31648
+2024-10-05 19:12:48,923 [ERROR] [EcoVisionAPI stderr] python: can't open file 'C:\\Users\\devin\\ProjectSTARK\\StarkMainframe\\PythonApplication1\\Services\\EcoVision\\EcoVisionAPI\\app.py': [Errno 2] No such file or directory
+2024-10-05 19:12:50,889 [INFO] Starting service: FridayLearningBackend
+2024-10-05 19:12:50,900 [INFO] Service FridayLearningBackend started with PID 31208
+2024-10-05 19:12:50,955 [ERROR] [FridayLearningBackend stderr] node:internal/modules/cjs/loader:1146
+2024-10-05 19:12:50,955 [ERROR] [FridayLearningBackend stderr]   throw err;
+2024-10-05 19:12:50,956 [ERROR] [FridayLearningBackend stderr]   ^
+2024-10-05 19:12:50,956 [ERROR] [FridayLearningBackend stderr] 
+2024-10-05 19:12:50,956 [ERROR] [FridayLearningBackend stderr] Error: Cannot find module 'C:\Users\devin\ProjectSTARK\StarkMainframe\PythonApplication1\Services\Friday\FridayLearningBackend\server.js'
+2024-10-05 19:12:50,957 [ERROR] [FridayLearningBackend stderr]     at Module._resolveFilename (node:internal/modules/cjs/loader:1143:15)
+2024-10-05 19:12:50,957 [ERROR] [FridayLearningBackend stderr]     at Module._load (node:internal/modules/cjs/loader:984:27)
+2024-10-05 19:12:50,957 [ERROR] [FridayLearningBackend stderr]     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:135:12)
+2024-10-05 19:12:50,957 [ERROR] [FridayLearningBackend stderr]     at node:internal/main/run_main_module:28:49 {
+2024-10-05 19:12:50,957 [ERROR] [FridayLearningBackend stderr]   code: 'MODULE_NOT_FOUND',
+2024-10-05 19:12:50,957 [ERROR] [FridayLearningBackend stderr]   requireStack: []
+2024-10-05 19:12:50,958 [ERROR] [FridayLearningBackend stderr] }
+2024-10-05 19:12:50,958 [ERROR] [FridayLearningBackend stderr] 
+2024-10-05 19:12:50,958 [ERROR] [FridayLearningBackend stderr] Node.js v20.12.2
+2024-10-05 19:12:59,309 [INFO] Operating System detected: Windows
+2024-10-05 19:12:59,310 [INFO] Starting service: ProjectSTARK.API
+2024-10-05 19:12:59,320 [INFO] Service ProjectSTARK.API started with PID 30984
+2024-10-05 19:12:59,360 [ERROR] [ProjectSTARK.API stderr] Unhandled exception. System.IO.IOException: The handle is invalid.
+2024-10-05 19:12:59,360 [ERROR] [ProjectSTARK.API stderr]    at System.ConsolePal.SetConsoleOutputEncoding(Encoding enc)
+2024-10-05 19:12:59,360 [ERROR] [ProjectSTARK.API stderr]    at System.Console.set_OutputEncoding(Encoding value)
+2024-10-05 19:12:59,361 [ERROR] [ProjectSTARK.API stderr]    at Microsoft.DotNet.Cli.Program.Main(String[] args)
