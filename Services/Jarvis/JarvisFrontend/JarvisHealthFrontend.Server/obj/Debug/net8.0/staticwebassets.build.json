@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "DqnJcySpI+0PbgLscZc+p/Fp7faqsUm6NHR5iwa+88A=",
+  "Source": "JarvisFrontend.Server",
+  "BasePath": "_content/JarvisFrontend.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\devin\\source\\repos\\JarvisHealthFrontend\\jarvishealthfrontend.client\\jarvisfrontend.client.esproj",
+      "Version": 2,
+      "Source": "jarvisfrontend.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
